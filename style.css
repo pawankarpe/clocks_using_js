@@ -1,0 +1,136 @@
+.navbar {
+    background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+    /* opacity: 0.8; 
+    filter: alpha(opacity=80); */
+    border-radius: 16px;
+    animation: animate 1.5s linear infinite;
+}
+
+@keyframes animate {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+
+.fontclr {
+    color: rgb(254, 10, 10);
+    font-weight: bolder;
+}
+
+.heading {
+    text-align: center;
+    color: white;
+    background-color: bisque;
+}
+
+.mgcenter {
+    padding: 30px 20px;
+}
+
+.flexcol {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1150px;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1521295121783-8a321d551ad2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clocks {
+    padding-top: 120px;
+
+}
+
+.card {
+    border: 20px solid #FFFFFF;
+    justify-content: space-between;
+}
+
+.specificClock {
+    display: flex;
+    width: 1150px;
+    margin: 0 -5px;
+}
+
+.card {
+    background: gray;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .navbar {
+        background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+        /* opacity: 0.8; 
+        filter: alpha(opacity=80); */
+        border-radius: 16px;
+        animation: animate 1.5s linear infinite;
+    }
+    
+    @keyframes animate {
+        100% {
+            filter: hue-rotate(360deg);
+        }
+    }
+    
+    
+    .fontclr {
+        color: rgb(254, 10, 10);
+        font-weight: bolder;
+    }
+    
+    .heading {
+        text-align: center;
+        color: white;
+        background-color: bisque;
+    }
+    
+    .mgcenter {
+        padding: 30px 30px;
+    }
+    
+    .flexcol {
+        display: flex;
+        flex-direction: column;
+        
+        flex-wrap: nowrap;
+        width: 400px;
+    }
+    
+    body {
+        background-image: url("https://images.unsplash.com/photo-1521295121783-8a321d551ad2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .clocks {
+        padding-top: 120px;
+    
+    }
+    
+    .card {
+        border: 20px solid #FFFFFF;
+        justify-content: space-between;
+        width: 400px;
+    }
+    
+    .specificClock {
+        display: flex;
+        width: 320px;
+        margin: 0 -5px;
+        position: center;
+    }
+    
+    .card {
+        background: gray;
+        margin: 0 10px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+  }
